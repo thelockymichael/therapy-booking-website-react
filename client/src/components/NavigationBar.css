@@ -1,0 +1,34 @@
+.color-nav {
+  background-color: white !important;
+}
+
+@media all and (max-width: 991px) {
+  .navbar-collapse {
+    font-size: 2rem;
+    background-color: #FFE8D6;
+    text-align: center;
+    height: 100vh !important;
+    /* position: absolute; */
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-content: center !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+  }
+
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 100vh !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
